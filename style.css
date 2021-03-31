@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #1e4efe;
+}
+
+.heading{
+  background: black;
+}
+
+.logo{
+  padding-top: 5px;
+}
+
+.embed {
+  margin: 45px;
+  background: #fcfcfc;
+  border-radius: 20px;
+  border: 2px solid black;  
+}
+.embed-h1{
+  padding-top: 15px;
+  padding-left: 35px;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+.flourish-embed{
+  padding: 20px;
+}
+
+footer{
+  background:black;
+}
+
+.copyright{
+  text-align:center;
+  padding: 10px;
+  color: white;
+}
+
+a{
+  text-decoration:none;
+  color: white;
+}
+ a:hover{
+  color: #fed900;
+  transition: all 1s;
+ }
