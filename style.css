@@ -50,5 +50,5 @@ a{
 }
  a:hover{
   color: #fed900;
-  transition: all 1s;
+  transition: all 0.8s ease-in-out;
  }
