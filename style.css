@@ -10,12 +10,34 @@ body{
   background: #1e4efe;
 }
 
-.heading{
+.nav{
   background: black;
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo{
+.nav-list{
+  margin-right: 45px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
   padding-top: 5px;
+}
+.nav-list-item{
+  color: #fcfcfc;
+  padding:10px;
+  font-family: 'Bungee', cursive;
+}
+
+.nav-list-a{
+  font-family: 'Bungee', cursive;
+  color: #fcfcfc;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-list-a:hover{
+  color: #00fec4;
 }
 
 .embed {
@@ -36,6 +58,7 @@ body{
 
 footer{
   background:black;
+  align-items: baseline;
 }
 
 .copyright{
@@ -44,11 +67,11 @@ footer{
   color: white;
 }
 
-a{
+.copyright-link{
   text-decoration:none;
   color: white;
+  transition: all 0.3s ease-in-out;
 }
- a:hover{
+ .copyright-link:hover{
   color: #fed900;
-  transition: all 0.8s ease-in-out;
  }
