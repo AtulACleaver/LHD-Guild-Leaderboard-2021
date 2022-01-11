@@ -1,4 +1,4 @@
-# LHD-Guild-Leaderboard
+### 📈 LHD-Guild-Leaderboard
 This is a LHD-Guild-Leaderboard
 
 
